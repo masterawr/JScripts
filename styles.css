@@ -1,0 +1,116 @@
+/* Dark Military Color Scheme */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a; /* Dark background */
+  color: #e0e0e0; /* Light text for contrast */
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.controls {
+  flex: 0 0 40%; /* Controls section takes 40% of the width */
+  padding: 20px;
+  background-color: #2d2d2d; /* Dark gray background */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+  overflow-y: auto; /* Add scroll if content overflows */
+}
+
+.preview-section {
+  flex: 1; /* Preview section takes the remaining space */
+  padding: 20px;
+  background-color: #1a1a1a; /* Dark background */
+  overflow-y: auto; /* Add scroll if content overflows */
+}
+
+.preview-frame {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #4d4d4d; /* Muted border color */
+  background-color: #2d2d2d; /* Dark gray background for the iframe */
+}
+
+.upload-section {
+  margin-bottom: 20px;
+}
+
+.file-upload {
+  margin-bottom: 15px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.checkbox-group, .input-group {
+  margin-top: 10px;
+}
+
+.button-group {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #4c6b22; /* Military green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3a521a; /* Darker military green on hover */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #e0e0e0; /* Light text */
+}
+
+input[type="text"], input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #4d4d4d; /* Muted border color */
+  border-radius: 4px;
+  background-color: #2d2d2d; /* Dark gray background */
+  color: #e0e0e0; /* Light text */
+}
+
+input[type="text"]:focus, input[type="file"]:focus {
+  border-color: #4c6b22; /* Military green for focus */
+  outline: none;
+}
+
+h1, h2 {
+  color: #4c6b22; /* Military green for headings */
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+/* Style for checkboxes */
+input[type="checkbox"] {
+  margin-right: 10px;
+  accent-color: #4c6b22; /* Military green for checkbox */
+}
+
+/* Style for file upload labels */
+.file-upload h2 {
+  color: #e0e0e0; /* Light text */
+}
