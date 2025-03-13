@@ -1,9 +1,9 @@
-/* Dark Military Color Scheme */
+/* Modern Color Scheme Based on Color Theory */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #1a1a1a; /* Dark background */
-  color: #e0e0e0; /* Light text for contrast */
+  background-color: #2c3e50; /* Deep blue background */
+  color: #ecf0f1; /* Light gray text for contrast */
 }
 
 .container {
@@ -14,7 +14,7 @@ body {
 .controls {
   flex: 0 0 40%; /* Controls section takes 40% of the width */
   padding: 20px;
-  background-color: #2d2d2d; /* Dark gray background */
+  background-color: #34495e; /* Slightly lighter blue for contrast */
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
   overflow-y: auto; /* Add scroll if content overflows */
 }
@@ -22,15 +22,15 @@ body {
 .preview-section {
   flex: 1; /* Preview section takes the remaining space */
   padding: 20px;
-  background-color: #1a1a1a; /* Dark background */
+  background-color: #2c3e50; /* Deep blue background */
   overflow-y: auto; /* Add scroll if content overflows */
 }
 
 .preview-frame {
   width: 100%;
   height: 100%;
-  border: 1px solid #4d4d4d; /* Muted border color */
-  background-color: #2d2d2d; /* Dark gray background for the iframe */
+  border: 1px solid #95a5a6; /* Soft gray border */
+  background-color: #34495e; /* Slightly lighter blue for the iframe */
 }
 
 .upload-section {
@@ -56,7 +56,7 @@ body {
 button {
   padding: 10px 20px;
   margin-right: 10px;
-  background-color: #4c6b22; /* Military green */
+  background-color: #e67e22; /* Warm orange for buttons */
   color: white;
   border: none;
   border-radius: 5px;
@@ -65,33 +65,33 @@ button {
 }
 
 button:hover {
-  background-color: #3a521a; /* Darker military green on hover */
+  background-color: #d35400; /* Darker orange on hover */
 }
 
 label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
-  color: #e0e0e0; /* Light text */
+  color: #ecf0f1; /* Light gray text */
 }
 
 input[type="text"], input[type="file"] {
   width: 100%;
   padding: 8px;
   margin-bottom: 10px;
-  border: 1px solid #4d4d4d; /* Muted border color */
+  border: 1px solid #95a5a6; /* Soft gray border */
   border-radius: 4px;
-  background-color: #2d2d2d; /* Dark gray background */
-  color: #e0e0e0; /* Light text */
+  background-color: #34495e; /* Slightly lighter blue background */
+  color: #ecf0f1; /* Light gray text */
 }
 
 input[type="text"]:focus, input[type="file"]:focus {
-  border-color: #4c6b22; /* Military green for focus */
+  border-color: #27ae60; /* Vibrant green for focus */
   outline: none;
 }
 
 h1, h2 {
-  color: #4c6b22; /* Military green for headings */
+  color: #27ae60; /* Vibrant green for headings */
 }
 
 h1 {
@@ -107,10 +107,21 @@ h2 {
 /* Style for checkboxes */
 input[type="checkbox"] {
   margin-right: 10px;
-  accent-color: #4c6b22; /* Military green for checkbox */
+  accent-color: #27ae60; /* Vibrant green for checkboxes */
 }
 
 /* Style for file upload labels */
 .file-upload h2 {
-  color: #e0e0e0; /* Light text */
+  color: #ecf0f1; /* Light gray text */
+}
+
+/* Table of Contents Links */
+a {
+  color: #27ae60; /* Vibrant green for links */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+a:hover {
+  color: #e67e22; /* Warm orange for hover state */
 }
